@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.com.happypoint.calendario.MainActivity">
+    <item
+        android:id="@+id/foto"
+        android:icon="@drawable/foto"
+        app:showAsAction="ifRoom"
+        android:title="Compose">
+    </item>
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/comp"
+        app:showAsAction="ifRoom|withText"
+        android:title="Profile">
+    </item>
+    <item
+        android:id="@+id/info_App"
+        android:orderInCategory="100"
+        android:title="@string/info_app"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/terminos"
+        android:orderInCategory="100"
+        android:title="@string/terminos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/politicas"
+        android:orderInCategory="100"
+        android:title="@string/politicas"
+        app:showAsAction="never" />
+</menu>
